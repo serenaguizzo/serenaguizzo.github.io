@@ -1,0 +1,760 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+canvas,
+img,
+picture,
+svg,
+video {
+  display: block;
+  width: 100%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word
+}
+
+
+
+
+
+html {
+  font-size: 16px;
+}
+
+#page {
+  font-size: 1rem;
+  max-width: 100svw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-wrap: balance;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'disto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+
+
+
+
+/*MOBILE MEASURE*/
+/*---------*/
+
+h1 {
+
+  font-family: 'ClashDisplay', sans-serif;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+
+
+}
+
+h2 {
+  font-family: 'ClashDisplay', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 0;
+}
+
+h3 {
+
+  font-family: 'ClashDisplay', sans-serif;
+  font-weight: 400;
+  font-size: 1.50rem;
+  margin: 0;
+  padding: 0;
+
+}
+
+h4 {
+
+  font-family: 'ClashDisplay', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
+
+}
+
+h5 {
+  font-family: 'ClashDisplay', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+
+}
+
+p {
+
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+
+}
+
+/*---------*/
+
+/* mobile portfolio */
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: row;
+  font-family: 'ClashDisplay', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+
+
+}
+
+.button-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  color: #000000;
+}
+
+.header a:hover {
+
+  text-decoration: underline;
+  color: #000000;
+}
+
+
+.header a:active {
+
+  text-decoration: underline;
+  color: #000000;
+}
+
+
+.navbar-brand {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.container-fluid.container-pages {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.intro-text {
+
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+
+}
+
+/* about mobile */
+/* bottoni sect about */
+
+/* about mobile */
+/* bottoni sect about */
+#aboutBtn {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+#aboutBtn:hover {
+  background-color: #000000;
+}
+
+#aboutBtn:active {
+  background-color: #000000;
+  box-shadow: 0 4px 16px rgb(255, 255, 255);
+}
+
+/* Nascondi la sezione di default */
+#aboutSection {
+  display: none;
+  /* Utilizza il padding solo qui, se necessario */
+  padding: 1rem;
+}
+
+/* Stili del contenuto (se necessario) */
+.title-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFBB07;
+  width: 100%;
+}
+
+.describe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+
+}
+
+.rotate {
+  transform: rotate(-90deg);
+  transition: transform 0.3s;
+}
+
+/* ------------- */
+
+
+
+/* SECTIONS */
+.sect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: solid 2px #000000;
+  border-top: solid 2px #000000;
+  cursor: pointer;
+
+}
+.sect a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+
+.sect-1 {
+  background-color: #049C6E;
+}
+
+.sect-2 {
+  background-color: #FF0000;
+}
+
+.sect-3 {
+  background-color: #6900FE;
+}
+
+.sect-4 {
+  background-color: #FF00EA;
+}
+
+.sect:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.sect:active {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.sect:hover img {
+  content: url("img/logoSG/freccia_b.png");
+  mix-blend-mode: difference;
+
+}
+
+.sect:active img {
+  content: url("img/logoSG/freccia_b.png");
+  mix-blend-mode: difference;
+}
+
+.sect img {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.home-proj {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.home-proj img {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.home-proj img:hover {
+  transform: scale(1.10);
+
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/*---------*/
+
+/* footer mobile */
+
+hr {
+  display: flex;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  opacity: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 100%;
+  margin-top: auto;
+
+
+}
+
+.foot {
+
+  display: flex;
+  border-bottom: solid 2px #000000;
+  width: 100%;
+  font-family: 'ClashDisplay', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  height: 50px;
+
+}
+
+.contact {
+  display: flex;
+  justify-content: start;
+  color: #000000;
+  background-color: #FFBB07;
+  border-top: solid 2px #000000;
+  align-items: center;
+
+
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: solid 2px #000000;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot a {
+  text-decoration: none;
+  color: #000000;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'ClashDisplay', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for desktop */
+.foot.email a:hover {
+  color: #000000;
+  background-color: #FF00EA;
+}
+
+/* Active (clicked) effect for both desktop and mobile */
+.foot.email a:active {
+  color: #000000;
+  background-color: #FF00EA;
+  /* Example: LinkedIn color, change as needed */
+}
+
+
+/* Hover effect for desktop */
+.foot.social a:hover {
+  color: #000000;
+  background-color: #FF0707;
+}
+
+/* Active (clicked) effect for both desktop and mobile */
+.foot.social a:active {
+  color: #000000;
+  background-color: #FF0707;
+  /* Example: LinkedIn color, change as needed */
+}
+
+
+/* mobile works page */
+/* RESET BASE — lasciamo width:auto di default alle immagini */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Contenitore dello slider */
+.slide-container {
+  overflow: hidden;
+  width: 100%;
+
+}
+
+/* RIGA SCORRIBILE */
+.slider-preview {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+
+  -ms-overflow-style: none;
+  /* IE / Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.slider-preview::-webkit-scrollbar {
+  display: none;
+  /* Chrome / Safari */
+}
+
+/* IMMAGINI */
+.slider-img {
+  scroll-snap-align: center;
+
+}
+
+
+.project-content {
+  display: none;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+
+/*---------*/
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    flex-direction: row;
+    font-family: 'ClashDisplay', sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+
+
+  }
+
+  .navbar-brand {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: max-content;
+
+  }
+
+  /*desk MEASURE*/
+  /*---------*/
+
+  h1 {
+
+    font-family: 'ClashDisplay', sans-serif;
+    font-weight: 300;
+    font-size: 8.5rem;
+
+
+
+  }
+
+  h2 {
+    font-family: 'ClashDisplay', sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
+
+
+  }
+
+  h3 {
+
+    font-family: 'ClashDisplay', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    margin: 0;
+
+
+  }
+
+  h4 {
+
+    font-family: 'ClashDisplay', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: 0;
+
+
+  }
+
+  h5 {
+    font-family: 'ClashDisplay', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 0;
+
+  }
+
+  p {
+
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+
+
+  }
+
+  /*---------*/
+
+  .container.home-proj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+
+  .title-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFBB07;
+    width: 100%;
+    height: auto;
+
+
+  }
+
+
+  .describe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+
+  }
+
+
+
+  .sect img {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /*---------*/
+
+
+  .footer {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    width: 100%;
+
+  }
+
+  .foot.social,
+  .contact {
+    border-right: solid 2px #000000;
+  }
+
+
+  .foot {
+    border-top: solid 2px #000000;
+  }
+
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .foot.tel,
+  .foot.social {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .footer a,
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  /* desktop works page */
+
+
+  /* Contenitore dello slider */
+  .slide-container {
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+}
+
+
+/* FONT FACE */
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url(Fonts/ClashDisplay-Light.otf) format('woff'),
+    url(Fonts/ClashDisplay-Light.otf) format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url(Fonts/ClashDisplay-Regular.otf) format('woff'),
+    url(Fonts/ClashDisplay-Regular.otf) format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url(Fonts/ClashDisplay-Medium.otf) format('woff'),
+    url(Fonts/ClashDisplay-Medium.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url(Fonts/ClashDisplay-Semibold.otf) format('woff'),
+    url(Fonts/ClashDisplay-Semibold.otf) format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url(Fonts/ClashDisplay-Bold.otf) format('woff'),
+    url(Fonts/ClashDisplay-Bold.otf) format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'helvetica';
+  src: url(Fonts/HelveticaNeueLight.ttf) format('woff'),
+    url(Fonts/HelveticaNeueLight.otf) format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Navbar mobile: sfondo scuro solo quando il menu è aperto */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
