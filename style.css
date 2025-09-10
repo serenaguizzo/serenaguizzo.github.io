@@ -43,7 +43,7 @@ html {
   flex-direction: column;
 }
 
-
+/*
 h1,
 h2,
 h3,
@@ -53,10 +53,8 @@ h6,
 p {
   text-wrap: balance;
 }
+*/
 
-.text-balance {
-  text-wrap: balance;
-}
 
 
 body {
@@ -123,9 +121,9 @@ h5 {
 
 p {
 
-  font-family: 'Helvetica', sans-serif;
-  font-weight: 300;
-  font-size: 0.9rem;
+  font-family: 'ClashDisplay', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 
 }
 
@@ -380,7 +378,9 @@ hr {
   flex-direction: column;
   width: 100%;
   margin-top: auto;
-
+ bottom: 0;       /* fissa in basso */
+  left: 0;  
+  position: sticky;
 
 
 }
@@ -401,8 +401,8 @@ hr {
   display: flex;
   justify-content: start;
   color: #000000;
+   border-top: solid 2px #000000;
   background-color: #FFBB07;
- 
   align-items: center;
 
 
@@ -479,6 +479,15 @@ hr {
   /* Example: LinkedIn color, change as needed */
 }
 
+ .isia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+  color: #ffffff;
+  height: 100%;
+}
 
 /* mobile works page */
 /* RESET BASE — lasciamo width:auto di default alle immagini */
@@ -487,6 +496,8 @@ img {
   height: auto;
   display: block;
 }
+
+
 
 /* work mobile*/
 
@@ -611,9 +622,9 @@ img {
 
   p {
 
-    font-family: 'Helvetica', sans-serif;
-    font-weight: 300;
-    font-size: 1.3rem;
+   font-family: 'ClashDisplay', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
 
 
   }
@@ -688,6 +699,17 @@ img {
     border-right: solid 2px #000000;
   }
 
+
+.contact {
+  display: flex;
+  justify-content: start;
+  color: #000000;
+   
+  background-color: #FFBB07;
+  align-items: center;
+
+
+}
 
   .foot {
     border-top: solid 2px #000000;
