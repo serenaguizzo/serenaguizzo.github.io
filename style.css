@@ -298,7 +298,8 @@ p {
   content: url("img/logoSG/freccia_b.png");
   mix-blend-mode: difference;
 }
-.colsect-1{
+
+.colsect-1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -306,7 +307,7 @@ p {
 }
 
 
-  .colsect-1 a{
+.colsect-1 a {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -378,8 +379,9 @@ hr {
   flex-direction: column;
   width: 100%;
   margin-top: auto;
- bottom: 0;       /* fissa in basso */
-  left: 0;  
+  bottom: 0;
+  /* fissa in basso */
+  left: 0;
   position: sticky;
 
 
@@ -401,7 +403,7 @@ hr {
   display: flex;
   justify-content: start;
   color: #000000;
-   border-top: solid 2px #000000;
+  border-top: solid 2px #000000;
   background-color: #FFBB07;
   align-items: center;
 
@@ -479,7 +481,7 @@ hr {
   /* Example: LinkedIn color, change as needed */
 }
 
- .isia{
+.isia {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -514,7 +516,6 @@ img {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-
   -ms-overflow-style: none;
   /* IE / Edge */
   scrollbar-width: none;
@@ -622,7 +623,7 @@ img {
 
   p {
 
-   font-family: 'ClashDisplay', sans-serif;
+    font-family: 'ClashDisplay', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
 
@@ -666,12 +667,12 @@ img {
 
   }
 
-  .sect a{
-  text-decoration: none;
-  font-family: 'ClashDisplay', sans-serif;
-  font-weight: 400;
-  font-size: 2.40rem;
-}
+  .sect a {
+    text-decoration: none;
+    font-family: 'ClashDisplay', sans-serif;
+    font-weight: 400;
+    font-size: 2.40rem;
+  }
 
   .sect img {
     width: 30px;
@@ -688,9 +689,10 @@ img {
     justify-content: start;
     flex-direction: row;
     width: 100%;
-      bottom: 0;       /* fissa in basso */
-  left: 0;  
-  position: sticky;
+    bottom: 0;
+    /* fissa in basso */
+    left: 0;
+    position: sticky;
 
   }
 
@@ -700,16 +702,16 @@ img {
   }
 
 
-.contact {
-  display: flex;
-  justify-content: start;
-  color: #000000;
-   
-  background-color: #FFBB07;
-  align-items: center;
+  .contact {
+    display: flex;
+    justify-content: start;
+    color: #000000;
+
+    background-color: #FFBB07;
+    align-items: center;
 
 
-}
+  }
 
   .foot {
     border-top: solid 2px #000000;
@@ -802,8 +804,7 @@ img {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}
 
-/* Navbar mobile: sfondo scuro solo quando il menu è aperto */
-@media (max-width: 991.98px) {}
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
